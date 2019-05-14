@@ -1,0 +1,46 @@
+.chart {
+    -fx-padding: 10px;
+    /*-fx-background-image: url("icon.png");*/   
+}
+.chart-content {
+    -fx-padding: 30px;    
+}
+ 
+.chart-title {
+  -fx-text-fill: #4682b4;
+  -fx-font-size: 1.6em;
+}
+ 
+.axis-label {
+    -fx-text-fill: #ffffff;
+}
+
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+ 
+.chart-legend-item-symbol{
+    -fx-display:false;
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #999999;
+}
+ 
+.chart-plot-background {
+     -fx-background-color:  #F3F3F3;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #A6A6A6;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #A6A6A6;
+}
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+

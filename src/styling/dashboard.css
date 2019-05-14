@@ -1,0 +1,75 @@
+.button
+{
+   -fx-background-color :  #EBE8F9;
+   -fx-text-fill: #403E44;
+}
+
+
+.fontawesomeiconview
+{
+    -fx-text-fill : red;
+   
+}
+
+.button:hover 
+{
+    
+  -fx-background-color :  #2F323A;
+  -fx-font-size: 16px;
+  -fx-text-fill: #0472CF;
+  
+}
+
+
+
+#tblJournal
+{
+    -fx-background-color:  #2F323A;
+}
+
+.button:pressed
+{
+-fx-background-color : #EBE8F9 ;
+}
+
+.button:focused
+{
+   -fx-background-color :  #9C9AA6 ;
+  -fx-border-width : 0px 0px 0px 3px;
+  -fx-border-color: #403E44;
+}
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-cell-size : 20;
+}
+
+.table-view .column{
+    -fx-background-color: red;
+}
+
+.table-view .column-header .label{
+
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER;
+}
+.table-view .cell{
+   -fx-cell-size: 30;
+  -fx-alignment: center-left;
+  -fx-text-fill: #000000;
+  -fx-alignment: CENTER;
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color:  rgb(15, 183, 203);
+ }
+ .table-row-cell:selected .text {
+        -fx-fill : white ;
+ 
+ }
+/* scroll bar starts here */
+
+
